@@ -53,32 +53,25 @@
 
 
     <TextView
+        android:id="@+id/tv_title"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
         android:layout_above="@+id/rl_input"
         android:textSize="26dp"
         android:textStyle="bold"
-        android:text="Login"
+        android:text="Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/tv_forget"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_below="@+id/rl_input"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:text="Forgot?"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
 
     <Button
         android:id="@+id/btn_register"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/tv_forget"
-        android:text="Register"
-        android:background="@drawable/sp_rectangle_root"
+        android:layout_above="@+id/tv_title"
+        android:text="Login"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/sp_rectangle_login"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
